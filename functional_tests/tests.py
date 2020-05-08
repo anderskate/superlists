@@ -94,7 +94,6 @@ class NewVisitorTest(StaticLiveServerTestCase):
         self.assertNotIn('Buy peals', page_text)
         self.assertIn('Buy milk', page_text)
 
-    @skip("Fix this test")
     def test_layout_and_styling(self):
         """Layout and Style Test."""
         self.browser.get(self.live_server_url)
